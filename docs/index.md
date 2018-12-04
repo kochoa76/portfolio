@@ -1,1 +1,156 @@
-<h1> Kayla's page </h1>
+<!DOCTYPE html>
+<html class="index-no-js" lang="en">
+    <head>
+        <title>Kayla Ochoa</title>
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+	    <meta name="viewport" content="width=device-width" />
+
+        <link href="https://fonts.googleapis.com/css?family=Nanum+Gothic|PT+Sans+Caption:700|Poppins:500|Signika:600" rel="stylesheet">
+        <link rel='stylesheet' href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="./src/css/styles.css">
+        <link rel="stylesheet" href="./src/css/bootstrap.css">
+
+    </head>
+
+    <body>
+
+        <div class="jumbotron-fluid">
+          <div class="mobile-margin visible-sm">
+            <ul class="nav nav-pills">
+              <li class="nav-item">
+                 <a class="flex-sm-fill text-sm-center nav-link" href="/about.html">about</a>
+              </li>
+              <li class="nav-item ">
+                 <a class="flex-sm-fill text-sm-center nav-link" href="#projects">projects</a>
+              </li>
+              <li class="nav-item">
+                <a class="flex-sm-fill text-sm-center nav-link" href="#contact">contact</a>
+              </li>
+              <li class="nav-item">
+                <a class="flex-sm-fill text-sm-center nav-link" href="http://kaylaochoa.com/">blog</a>
+              </li>
+            </ul>
+          </div>
+          <div class="headline-container text-secondary  ">
+            <h1 class="display-6 "> Hi, I'm Kayla.</h1>
+            <h4 class="sub-display"> Web Developer with a curious mind and a hunger to learn. </h4>
+       </div>
+     </div>
+
+     <div id="projects">
+       <div class="container-fluid">
+         <div class="work-container pl-4 pt-5">
+         <h1 class="work-title text-center mt-3 pb-5"> Projects </h1>
+           <div class="card-1 ">
+             <div class="row">
+               <div class="card-img-container col-sm-12 col-md-6 text-center pb-5">
+                 <img class="card-img-top-1" src="./src/assets/images/IMG_111.png" alt="picture of Glow Ecommerce App">
+               </div>
+               <div class="card col-sm-12 col-md-6" >
+                 <h5 class="card-title font-change ">Glow Ecommerce </h5><p class="font-weight-bold"> Ruby/Rails, React, Redux </p>
+                 <p class="card-text font-italic "> An ecommerce app offering beauty products for purchase </p>
+                   <ul>
+                     <li>Created a single page application Utilizing React Router v4  and proper RESTful routing</li>
+                     <li>Implemented APIs using Ruby on Rails utilizing async actions to persist data</li>
+                     <li>Layered Redux to respond to and modify state change</li>
+                     <li>Designed all CSS and front-end functionality </li>
+                   </ul>
+                   <div class="buttons ml-4">
+                     <a href="https://github.com/kochoa76/Glow-Ecommerce-Client" class="btn btn-outline-dark">Code</a>
+                     <a href="https://vimeo.com/302856348" class="btn btn-outline-dark">Demo</a>
+                   </div>
+                 </div>
+             </div>
+           </div>
+
+
+         <div class="card-2">
+           <div class="row">
+             <div class="card-img-container col-sm-12 col-md-6 text-center pb-5">
+               <img class="card-img-top-2" src="./src/assets/images/IMG_5.png" alt="Picture of UniquelyFem App">
+             </div>
+             <div class="card col-sm-12 col-md-6 text-xs-center" >
+               <h5 class="card-title mt-3 font-change">UniquelyFem</h5><p class="font-weight-bold"> JavaScript, Jquery, Ruby/Rails </p>
+               <p class="card-text font-italic "> A reviews-based app for job-seeking women searching for employers whose values align with theirs. </p>
+               <ul>
+                 <li>Built RESTful APIs using Ruby on Rails and the MVC pattern </li>
+                 <li>Powered jQuery and JavaScript for AJAX functionality </li>
+                 <li>Deployed ActiveRecord Serializers to oversee JSON responses</li>
+               </ul>
+               <div class="buttons ml-4">
+                 <a href="https://github.com/kochoa76/uniquely-fem-rails-project" class="btn btn-outline-dark "> Code </a>
+                 <a href="https://vimeo.com/295261567" class="btn btn-outline-dark ">Demo</a>
+               </div>
+             </div>
+
+           </div>
+         </div>
+
+           <div class="card-3">
+             <div class="row">
+               <div class="card-img-container col-sm-12 col-md-6 text-center pb-5">
+                 <img class="card-img-top-3" src="./src/assets/images/IMG_3.png" alt="Card image cap">
+               </div>
+               <div class="card col-sm-12 col-md-6" >
+                 <h5 class="card-title font-change">GiftJournal</h5><p class="font-weight-bold"> Sinatra </p>
+                 <p class="card-text font-italic ">Keeps a wish-list journal throughout the year of gifts a person desires - handy for gift giving seasons!</p>
+                 <ul>
+                   <li>Built full RESTful CRUD functionality using Sinatra with an MVC framework </li>
+                   <li> Configured user authentication and authorization using Bcrypt</li>
+                   <li> Managed all SQL database interactions through ActiveRecord </li>
+                 </ul>
+                 <div class="buttons ml-4">
+                   <a href="https://github.com/kochoa76/sinatra-project-gift-journal" class="btn btn-outline-dark">Code</a>
+                   <a href="https://vimeo.com/282216479" class="btn btn-outline-dark">Demo</a>
+                 </div>
+               </div>
+             </div>
+           </div>
+         </div>
+       </div>
+     </div>
+
+
+     <div class="container-fluid">
+        <div class="about-container">
+            <h1 class="about-title pb-3"> What's My Story </h1>
+            <div class="about-section">
+              <div class="card-about ">
+                <div class="row">
+                  <div class="image-container col-sm-12 col-md-6 pb-5  pl-5">
+                    <img src="./src/assets/images/IMG_7632.JPG" class="rounded" alt="picture of Kayla"/>
+                  </div>
+                  <div class="card-about-content col-sm-12 col-md-6 " >
+                    <h5 class="about-description text-left mt-5 pt-5 pb-2 pt-xs"> Full stack web developer with a passion for learning and creative expression. Coming from a background in software sales, I transitioned to web development after experiencing technology's indisputable ability to solve problems for businesses. Throughout my career in sales, I felt a desire to contribute to a community where I would not only be able to provide technical solutions, but also participate in the creation of those technologies.</h5>
+                    <a href="/about.html" class="btn btn-outline-dark"> Learn More </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div id="contact">
+          <div class="container-fluid">
+            <footer class="contact-footer text-center">
+              <div class="footer-message pb-3">
+                  <h2 class="font-change"> Thank you for reading. Let's connect! </h1><br>
+                    <a href="/images/myw3schoolsimage.jpg" download class="btn btn-outline-dark"> Download Resume </a><br>
+                <div class="social-media-icons">
+                  <a class="flex-sm-fill text-sm-center nav-link" href="mailto:kochoa76@gmail.com" ><i class="fa fa-fw fa-envelope"></i></a>
+                  <a class="flex-sm-fill text-sm-center nav-link" href="https://www.linkedin.com/in/kaylaochoa/"> <i class="fa fa-fw fa-linkedin"></i></a>
+                  <a class="flex-sm-fill text-sm-center nav-link" href="https://github.com/kochoa76"><i class="fa fa-fw fa-github"></i></a>
+                </div>
+              </div>
+            </footer>
+          </div>
+        </div>
+
+
+
+
+    <script src="/js/jquery.min.js"></script>
+       <script src="/js/popper.min.js"></script>
+       <script src="/js/bootstrap.min.js"></script>
+    </body>
+</html>
