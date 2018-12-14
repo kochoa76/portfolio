@@ -16,11 +16,13 @@
     margin-top: -29rem; }
   h1.display-6 {
     margin-top: 28rem;
-    margin-left: -13rem;
-    color: #fff; }
+    margin-left: -14rem;
+    color: #fff;
+    font-size: 2rem !important; }
   h4.sub-display {
     margin-top: 0rem;
-    margin-left: -13rem;
+    margin-left: -14rem;
+    font-size: 1rem !important;
     color: #fff; } }
 
 @media screen and (min-width: 1225px) and (max-width: 1439px) {
@@ -129,12 +131,14 @@
     margin-left: -51rem;
     margin-top: -50rem; }
   ul.nav.nav-pills a {
-    font-size: 3rem; }
+    font-size: 3.5rem; }
   h1.display-6 {
     margin-left: -51rem;
+    font-size: 4rem;
     margin-top: 37rem;
     color: black; }
   h4.sub-display {
+    font-size: 3rem;
     margin-left: -51rem;
     color: black; } }
 
@@ -232,15 +236,19 @@ div.card-about-content.a.btn.btn-outline-danger {
     padding: 3rem;
     overflow: hidden;
     text-align: center; }
-  h5.about-description {
-    width: 50%;
-    font-size: 1.5rem !important;
+  h5.about-description.text-left.mt-5.pt-5 {
+    width: 60%;
+    font-size: 2rem !important;
     display: flex;
     align-items: center;
     justify-content: center;
-    margin: 0 auto !important; }
+    margin: 0 auto !important;
+    line-height: 2.4rem;
+    padding-bottom: 2.5rem !important; }
+  h1.about-title.pb-3 {
+    font-size: 3.5rem !important; }
   div.about-container img.rounded {
-    width: 60%;
+    width: 65%;
     box-shadow: 2px 2px 2px 1px #6c757d; } }
 
 h1.about-title {
@@ -296,7 +304,11 @@ div.about-title {
     padding-top: 3rem;
     padding-bottom: 3rem;
     overflow: hidden;
-    text-align: center; } }
+    text-align: center; }
+  h2.font-change {
+    font-size: 3rem; }
+  a.flex-sm-fill.text-sm-center {
+    font-size: 3rem; } }
 
 @media screen and (min-width: 1024px) {
   div.work-container {
@@ -389,6 +401,10 @@ div.about-title {
     text-align: center; }
   .container-fluid {
     background: #FFBC9C; }
+  h5.card-title.font-change {
+    font-size: 3rem; }
+  p.font-weight-bold {
+    font-size: 3rem; }
   div.card {
     font-size: 2rem !important;
     align-items: center;
@@ -398,18 +414,31 @@ div.about-title {
     font-size: 1.8rem;
     text-align: left;
     margin: 0 auto; }
+  h1.work-title {
+    font-size: 3.5rem; }
+  p.card-text.font-italic {
+    font-size: 2.2rem; }
   h5.card-title {
     font-size: 2rem; }
   div.card ul {
-    text-align: left; }
+    text-align: left;
+    margin-bottom: 1rem; }
+  div.buttons.ml-4 {
+    white-space: nowrap; }
+  a.btn.btn-outline-dark {
+    font-size: 2.8rem;
+    white-space: nowrap;
+    border-radius: 0.25rem; }
+  div.card li {
+    font-size: 2.2rem; }
   h5.about-description {
     margin: 0 auto; }
   img.card-img-top-1 {
-    width: 55%; }
+    width: 65%; }
   img.card-img-top-2 {
-    width: 55%; }
+    width: 65%; }
   img.card-img-top-3 {
-    width: 55%; } }
+    width: 65%; } }
 
 img.card-img-top-1 {
   box-shadow: 2px 2px 2px 1px #6c757d; }
@@ -4625,7 +4654,7 @@ button.close {
   .bs-popover-top .arrow::before, .bs-popover-auto[x-placement^="top"] .arrow::before {
     bottom: 0;
     border-top-color: rgba(0, 0, 0, 0.25); }
-  
+
   .bs-popover-top .arrow::after,
   .bs-popover-auto[x-placement^="top"] .arrow::after {
     bottom: 1px;
@@ -4645,7 +4674,7 @@ button.close {
   .bs-popover-right .arrow::before, .bs-popover-auto[x-placement^="right"] .arrow::before {
     left: 0;
     border-right-color: rgba(0, 0, 0, 0.25); }
-  
+
   .bs-popover-right .arrow::after,
   .bs-popover-auto[x-placement^="right"] .arrow::after {
     left: 1px;
@@ -4662,7 +4691,7 @@ button.close {
   .bs-popover-bottom .arrow::before, .bs-popover-auto[x-placement^="bottom"] .arrow::before {
     top: 0;
     border-bottom-color: rgba(0, 0, 0, 0.25); }
-  
+
   .bs-popover-bottom .arrow::after,
   .bs-popover-auto[x-placement^="bottom"] .arrow::after {
     top: 1px;
@@ -4691,7 +4720,7 @@ button.close {
   .bs-popover-left .arrow::before, .bs-popover-auto[x-placement^="left"] .arrow::before {
     right: 0;
     border-left-color: rgba(0, 0, 0, 0.25); }
-  
+
   .bs-popover-left .arrow::after,
   .bs-popover-auto[x-placement^="left"] .arrow::after {
     right: 1px;

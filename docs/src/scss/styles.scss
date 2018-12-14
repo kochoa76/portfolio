@@ -194,7 +194,7 @@ div.jumbotron-fluid{
 
       }
       ul.nav.nav-pills a{
-      font-size: 3rem;
+      font-size: 3.5rem;
 
 
       }
@@ -205,7 +205,7 @@ div.jumbotron-fluid{
         // width: 50%;
         // margin-bottom: 40rem;
         margin-left: -51rem;
-        // font-size: 4rem;
+        font-size: 4rem;
         // white-space: nowrap;
         // color: black;
         margin-top: 37rem;
@@ -217,6 +217,7 @@ div.jumbotron-fluid{
         // bottom: 340rem;
         // right: 7rem;
         // width: 50%;
+        font-size: 3rem;
       margin-left: -51rem;
       color: black;
       }
@@ -362,18 +363,22 @@ div.card-about-content.a.btn.btn-outline-danger {
     overflow: hidden;
     text-align: center;
     }
-    h5.about-description {
-      width: 50%;
-      font-size: 1.5rem !important;
+    h5.about-description.text-left.mt-5.pt-5 {
+      width: 60%;
+      font-size: 2rem !important;
       display: flex;
       align-items: center;
       justify-content: center;
       margin: 0 auto !important;
-
+      line-height: 2.4rem;
+      padding-bottom: 2.5rem !important;
+    }
+    h1.about-title.pb-3 {
+      font-size: 3.5rem !important;
     }
 
     div.about-container img.rounded{
-      width: 60%;
+      width: 65%;
       box-shadow: 2px 2px 2px 1px #6c757d;
     }
   }
@@ -463,6 +468,13 @@ div.about-title {
     overflow: hidden;
 
     text-align: center;
+  }
+  h2.font-change {
+    font-size: 3rem;
+  }
+
+  a.flex-sm-fill.text-sm-center{
+    font-size: 3rem;
   }
 
 }
@@ -628,6 +640,15 @@ div.about-title {
     .container-fluid {
       background: #FFBC9C
     }
+
+    h5.card-title.font-change {
+      font-size: 3rem;
+    }
+
+    p.font-weight-bold {
+      font-size: 3rem;
+
+    }
     div.card {
       font-size: 2rem !important;
       align-items: center;
@@ -639,8 +660,13 @@ div.about-title {
       margin: 0 auto;
 
     }
-    p.card-text  {
-    // width: 50%;
+
+    h1.work-title {
+      font-size: 3.5rem;
+    }
+
+    p.card-text.font-italic  {
+    font-size: 2.2rem;
 
     }
     h5.card-title {
@@ -649,19 +675,32 @@ div.about-title {
     div.card ul {
       text-align: left;
 
+      margin-bottom: 1rem;
+    }
+    div.buttons.ml-4 {
+      white-space: nowrap;
+    }
+    a.btn.btn-outline-dark {
+      font-size: 2.8rem;
+      white-space: nowrap;
+      border-radius: 0.25rem;
+    }
+
+    div.card li{
+      font-size: 2.2rem;
     }
     h5.about-description {
       margin: 0 auto;
     }
 
     img.card-img-top-1{
-      width: 55%;
+      width: 65%;
     }
     img.card-img-top-2{
-      width: 55%;
+      width: 65%;
     }
     img.card-img-top-3{
-      width: 55%;
+      width: 65%;
     }
   }
 
@@ -681,9 +720,7 @@ div.about-title {
 //     overflow: hidden;
 //   }
 //
-//   h1.work-title {
-//     font-size: 2rem;
-//   }
+
 //
 //   div.card {
 //     margin: 1rem;
