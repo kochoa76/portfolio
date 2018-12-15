@@ -100,20 +100,22 @@ div.jumbotron-fluid{
 }
 
 
-  @media screen and (min-width: 768px) and (max-width : 1024px) {
+  @media screen and (min-width: 768px) and (max-width : 1023px) {
     div.jumbotron-fluid{
       background: #000 url('../../src/assets/images/IMG_7619.JPG') ;
-      background-attachment: fixed;
+      background-attachment: relative;
       background-position: center;
       background-repeat: no-repeat;
-      background-size: auto 100%;
+      background-size: cover;
       background-color: #ffd3d9 !important;
-      padding: 86.5rem;
+      padding: 88rem;
+      height:50rem;
+
       }
       ul.nav.nav-pills {
       margin-left: -80rem;
       // margin-right: -50rem;
-      margin-top: -80rem;
+      margin-top: -83rem;
 
 
       }
@@ -123,7 +125,7 @@ div.jumbotron-fluid{
       }
       h1.display-6 {
         margin-top: 75rem;
-        margin-left: -80rem;
+        margin-left: -70rem;
         font-size: 6rem;
         white-space: nowrap;
         color: black;
@@ -441,9 +443,9 @@ div.about-title {
 @media screen and (min-width: 768px) and (max-width : 1024px) {
   footer.contact-footer {
     background: #F36951;
-    background-position: relative;
+    background-position: fixed;
     background-size: auto 100%;
-    margin-right: -125rem;
+    margin-right: -128rem;
     padding-top: 3rem;
     padding-bottom: 3rem;
     overflow: hidden;
