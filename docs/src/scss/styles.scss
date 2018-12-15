@@ -104,16 +104,16 @@ div.jumbotron-fluid{
     div.jumbotron-fluid{
       background: #000 url('../../src/assets/images/IMG_7619.JPG') ;
       background-attachment: fixed;
-      background-position: center;
+      background-position: right;
       background-repeat: no-repeat;
       background-size: auto 100%;
       background-color: #ffd3d9 !important;
-      padding: 70rem;
+      padding: 86.5rem;
       }
       ul.nav.nav-pills {
-      margin-left: -60rem;
-      margin-right: -50rem;
-      margin-top: -65rem;
+      margin-left: -80rem;
+      // margin-right: -50rem;
+      margin-top: -80rem;
 
 
       }
@@ -122,20 +122,17 @@ div.jumbotron-fluid{
 
       }
       h1.display-6 {
-        margin-top: 80rem;
-        margin-left: -60rem;
+        margin-top: 75rem;
+        margin-left: -80rem;
         font-size: 6rem;
         white-space: nowrap;
         color: black;
       }
 
       h4.sub-display {
-        // margin-top: 27rem;
-        margin-left: -60rem;
-        // margin-top: 52rem;
-
+        margin-left: -80rem;
+        width: 60rem;
         font-size: 4rem;
-        white-space: nowrap;
         color: black;
 
       }
@@ -294,7 +291,7 @@ div.card-about-content.a.btn.btn-outline-danger {
     background:  #FFBC9C;
     background-position: relative;
     background-size: auto 100%;
-    margin-right: -85rem;
+    margin-right: -125rem;
     padding-top: 3rem;
     padding-bottom: 3rem;
     overflow: hidden;
@@ -303,12 +300,16 @@ div.card-about-content.a.btn.btn-outline-danger {
   }
   h5.about-description {
     width: 60%;
-    font-size: 2rem !important;
+    font-size: 2.5rem !important;
     line-height: 2.5rem;
     display: flex;
     align-items: center;
     justify-content: center;
     margin: 0 auto;
+  }
+
+  div.card-about-content {
+    margin-left: -12rem;
   }
   img.rounded {
     width: 80%;
@@ -442,7 +443,7 @@ div.about-title {
     background: #F36951;
     background-position: relative;
     background-size: auto 100%;
-    margin-right: -100rem;
+    margin-right: -125rem;
     padding-top: 3rem;
     padding-bottom: 3rem;
     overflow: hidden;
@@ -556,7 +557,6 @@ div.about-title {
     div.card ul {
       width: 60%;
     }
-
     img.card-img-top-1 {
       width: 80%;
     }
@@ -574,14 +574,14 @@ div.about-title {
   border-top: 0.5rem solid #fff;
   background-position: relative;
   background-size: auto 100%;
-  margin-right: -85rem;
+  margin-right: -125rem;
   padding-top: 3rem;
   padding-bottom: 3rem;
   overflow: hidden;
   text-align: center;
   }
-  .container-fluid {
-    background: #FFBC9C
+  div.container-fluid {
+    background: #FFBC9C;
   }
 
   a.btn.btn-outline-dark {
@@ -590,19 +590,25 @@ div.about-title {
 
   h1.work-title.text-center.mt-3.pb-5 {
     font-size: 4rem !important;
-    padding-bottom: 2rem;
+    padding-bottom: 5rem !important;
+    padding-top: 5rem ;
+
   }
 
   h5.card-title.font-change {
     font-size: 3rem !important;
 
   }
-  p.font-weight {
+  p.tech-stack {
     font-size: 2.5rem !important;
+    margin-right: 5rem;
+  }
+  div.row {
+    margin-left: 16rem;
   }
   div.card {
     text-align: left;
-    font-size: 2rem !important;
+    font-size: 2.5rem !important;
   }
   p.card-text {
     width: 60%;
@@ -612,12 +618,15 @@ div.about-title {
   }
   img.card-img-top-1 {
     width: 80%;
+    margin-right: 7rem;
   }
   img.card-img-top-2 {
     width: 80%;
+    margin-right: 7rem;
   }
   img.card-img-top-3 {
     width: 80%;
+    margin-right: 7rem;
   }
 }
 
@@ -642,6 +651,9 @@ div.about-title {
     }
     h5.card-title.font-change {
       font-size: 3rem;
+    }
+    p.tech-stack {
+      font-size: 2.5rem !important;
     }
     div.card {
 
@@ -704,10 +716,10 @@ div.about-title {
       font-size: 3rem;
     }
 
-    p.font-weight {
-      font-size: 3rem;
-
+    p.tech-stack {
+      font-size: 2.5rem !important;
     }
+
     div.card {
       font-size: 2rem !important;
       align-items: center;
@@ -944,6 +956,7 @@ div.about.jumbotron-fluid {
 
   }
 
+
 }
 
 @media screen and (min-width: 1024px) {
@@ -954,7 +967,7 @@ div.about.jumbotron-fluid {
   padding-bottom: 5rem;
   overflow: hidden;
   }
-  h1.font-weight {
+  p.font-weight {
     padding-top: 5rem;
     margin-left: 9rem;
     padding-bottom: 1rem;
@@ -972,7 +985,7 @@ div.about.jumbotron-fluid {
   padding-bottom: 5rem;
   overflow: hidden;
   }
-  h1.font-weight {
+  p.font-weight {
     padding-top: 5rem;
     margin-left: 12rem;
     padding-bottom: 1rem;
@@ -995,7 +1008,7 @@ div.about.jumbotron-fluid {
   padding-bottom: 5rem;
   overflow: hidden;
   }
-  h1.font-weight {
+  p.font-weight{
     padding-top: 5rem;
     margin-left: 10rem;
     padding-bottom: 1rem;
@@ -1023,7 +1036,7 @@ div.about.jumbotron-fluid {
     width: 100% !important;
     font-size: 2rem !important;
   }
-  h1.font-weight {
+  p.font-weight{
     margin-left: 13rem !important;
   }
   h4.text-dark {
