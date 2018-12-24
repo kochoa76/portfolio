@@ -28,9 +28,10 @@ $body-bg: #ffd3d9;
     margin-top: -29rem;
     }
     h1.display-6 {
-      margin-top: 28rem;
+      margin-top: 15rem;
       margin-left: -14rem;
-      color: #fff;
+      color: black;
+      font-family: 'Poppins', sans-serif;
       font-size: 2rem !important;
     }
 
@@ -38,7 +39,9 @@ $body-bg: #ffd3d9;
       margin-top: 0rem;
       margin-left: -14rem;
       font-size: 1.5rem !important;
-      color: #fff;
+      color: black;
+      width: 95%;
+
     }
   }
 
@@ -58,6 +61,7 @@ $body-bg: #ffd3d9;
     margin-top: -19rem;
     }
     h1.display-6 {
+      font-family: 'Poppins', sans-serif;
       margin-top: 29rem;
       margin-left: -7rem;
       color: #fff;
@@ -87,6 +91,7 @@ div.jumbotron-fluid{
   margin-top: -19rem;
   }
   h1.display-6 {
+    font-family: 'Poppins', sans-serif;
     margin-top: 23rem;
     margin-left: -7rem;
     color: #fff;
@@ -124,8 +129,9 @@ div.jumbotron-fluid{
 
       }
       h1.display-6 {
-        margin-top: 75rem;
-        margin-left: -70rem;
+        margin-top: 55rem;
+        font-family: 'Poppins', sans-serif;
+        margin-left: -80rem;
         font-size: 6rem;
         white-space: nowrap;
         color: black;
@@ -161,6 +167,7 @@ div.jumbotron-fluid{
 
       }
       h1.display-6 {
+        font-family: 'Poppins', sans-serif;
         margin-top: 93rem;
         margin-left: -65rem;
         font-size: 5rem;
@@ -206,6 +213,7 @@ div.jumbotron-fluid{
         // right: 7rem;
         // width: 50%;
         // margin-bottom: 40rem;
+        font-family: 'Poppins', sans-serif;
         margin-left: -51rem;
         font-size: 4rem;
         // white-space: nowrap;
@@ -284,6 +292,7 @@ div.card-about-content.a.btn.btn-outline-danger {
   }
   img.rounded {
     width: 80%;
+    border-radius: 0.5rem;
     box-shadow: 2px 2px 2px 1px #6c757d;
   }
 }
@@ -543,7 +552,6 @@ div.about-title {
     div.work-container {
       background: #FFBC9C;
       width: 100%;
-      border-top: 0.5rem solid #fff;
       overflow: hidden;
     }
     .container-fluid {
@@ -556,24 +564,30 @@ div.about-title {
     p.card-text {
       width: 80%;
     }
+    p.tech-stack {
+      font-family: 'Poppins', sans-serif;
+    }
     div.card ul {
-      width: 60%;
+      width: 80%;
+      margin-left: -2rem
     }
     img.card-img-top-1 {
-      width: 80%;
+      width: 85%;
+      border-radius: 0.5rem;
     }
     img.card-img-top-2 {
-      width: 80%;
+      width: 85%;
+      border-radius: 0.5rem;
     }
     img.card-img-top-3 {
-      width: 80%;
+      width: 85%;
+      border-radius: 0.5rem;
     }
   }
 
 @media screen and (min-width: 768px) and (max-width : 1024px) {
   div.work-container.pl-4.pt-5 {
   background: #FFBC9C;
-  border-top: 0.5rem solid #fff;
   background-position: relative;
   background-size: auto 100%;
   margin-right: -125rem;
@@ -604,6 +618,7 @@ div.about-title {
   p.tech-stack {
     font-size: 2.5rem !important;
     margin-right: 5rem;
+    font-family: 'Poppins', sans-serif;
   }
   div.row {
     margin-left: 16rem;
@@ -621,21 +636,23 @@ div.about-title {
   img.card-img-top-1 {
     width: 80%;
     margin-right: 7rem;
+    border-radius: 0.5rem;
   }
   img.card-img-top-2 {
     width: 80%;
     margin-right: 7rem;
+    border-radius: 0.5rem;
   }
   img.card-img-top-3 {
     width: 80%;
     margin-right: 7rem;
+    border-radius: 0.5rem;
   }
 }
 
 @media screen and (min-width : 481px) and (max-width: 767px) {
     div.work-container {
       background: #FFBC9C;
-      border-top: 0.5rem solid #fff;
       background-position: relative;
       background-size: auto 100%;
       margin-right: -110rem;
@@ -656,6 +673,7 @@ div.about-title {
     }
     p.tech-stack {
       font-size: 2.5rem !important;
+      font-family: 'Poppins', sans-serif;
     }
     div.card {
 
@@ -684,12 +702,15 @@ div.about-title {
 
     img.card-img-top-1{
       width: 55%;
+      border-radius: 0.5rem;
     }
     img.card-img-top-2{
       width: 55%;
+      border-radius: 0.5rem;
     }
     img.card-img-top-3{
       width: 55%;
+      border-radius: 0.5rem;
     }
 
   }
@@ -699,7 +720,6 @@ div.about-title {
 @media screen and (min-width : 320px) and (max-width : 480px) {
     div.work-container {
     background: #FFBC9C;
-    border-top: 0.5rem solid #fff;
     background-position: relative;
     background-size: auto 100%;
     margin-right: -70rem;
@@ -720,6 +740,7 @@ div.about-title {
 
     p.tech-stack {
       font-size: 2.5rem !important;
+      font-family: 'Poppins', sans-serif;
     }
 
     div.card {
@@ -768,12 +789,15 @@ div.about-title {
 
     img.card-img-top-1{
       width: 65%;
+      border-radius: 0.5rem;
     }
     img.card-img-top-2{
       width: 65%;
+      border-radius: 0.5rem;
     }
     img.card-img-top-3{
       width: 65%;
+      border-radius: 0.5rem;
     }
   }
 
@@ -1168,7 +1192,6 @@ div.social-media-icons a {
   .font-change {
       font-family:  'PT Sans Caption', sans-serif !important;
   }
-
 
 
 
