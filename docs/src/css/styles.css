@@ -27,7 +27,7 @@
     color: black;
     width: 95%; } }
 
-@media screen and (min-width: 1225px) and (max-width: 1439px) {
+@media screen and (min-width: 1369px) and (max-width: 1439px) {
   div.jumbotron-fluid {
     background: #000 url("../../src/assets/images/IMG_7619.JPG");
     background-attachment: fixed;
@@ -49,6 +49,32 @@
     margin-left: -7rem;
     color: black;
     font-size: 1.5rem; } }
+
+@media screen and (min-width: 1225px) and (max-width: 1368px) {
+  div.jumbotron-fluid {
+    background: #000 url("../../src/assets/images/IMG_7619.JPG");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: auto 100%;
+    background-color: #ffd3d9 !important;
+    padding: 20rem; }
+  ul.nav.nav-pills {
+    margin-left: 0rem;
+    margin-top: -19rem; }
+  ul.nav.nav-pills a {
+    font-size: 1.5rem; }
+  h1.display-6 {
+    font-family: 'Poppins', sans-serif;
+    margin-top: 8rem;
+    margin-left: 0rem;
+    color: black;
+    font-size: 1.5rem; }
+  h4.sub-display {
+    margin-left: 0rem;
+    color: black;
+    width: 50%;
+    font-size: 1rem; } }
 
 @media screen and (min-width: 1024px) and (max-width: 1224px) {
   div.jumbotron-fluid {
