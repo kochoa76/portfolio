@@ -30,8 +30,7 @@
     margin-left: -20rem;
     font-size: 2rem !important;
     color: black;
-    width: 95%;
-    padding-bottom: 15rem; } }
+    width: 95%; } }
 
 @media screen and (min-width: 1440px) and (max-width: 1600px) {
   div.jumbotron-fluid {
@@ -58,8 +57,7 @@
     margin-left: -22rem;
     font-size: 1.5rem !important;
     color: black;
-    width: 95%;
-    padding-bottom: 15rem; } }
+    width: 95%; } }
 
 @media screen and (min-width: 1369px) and (max-width: 1439px) {
   div.jumbotron-fluid {
@@ -83,8 +81,7 @@
     margin-left: -10rem;
     color: black;
     font-size: 1.5rem;
-    width: 50%;
-    padding-bottom: 15rem; } }
+    width: 50%;} }
 
 @media screen and (min-width: 1225px) and (max-width: 1368px) {
   div.jumbotron-fluid {
@@ -110,8 +107,7 @@
     margin-left: -10rem;
     color: black;
     width: 50%;
-    font-size: 1.5rem;
-    padding-bottom: 15rem; } }
+    font-size: 1.5rem; } }
 
 @media screen and (min-width: 1024px) and (max-width: 1224px) {
   div.jumbotron-fluid {
@@ -137,8 +133,7 @@
     margin-left: -15rem;
     color: black;
     font-size: 1rem;
-    width: 70%;
-    padding-bottom: 15rem; } }
+    width: 70%; } }
 
 @media screen and (min-width: 768px) and (max-width: 1023px) {
   div.jumbotron-fluid {
